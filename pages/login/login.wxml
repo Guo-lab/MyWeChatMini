@@ -1,2 +1,12 @@
 <!--pages/login/login.wxml-->
-<text>pages/login/login.wxml</text>
+<view class="container">
+    <text> Welcome to Guo-Lab</text>
+    <input type="number" class="phone_number" bindblur="getPhone" placeholder="Please input your phone number: "></input>
+    <view class="code">
+        <input class="code_number" bindblur="getCode" placeholder="Please input identify number: "></input>
+        <button class="btn_code">Click to get identify number!</button>
+    </view>
+    <view>
+      <button bindtap="Login" class="btn_login">Login</button>
+    </view>
+</view>

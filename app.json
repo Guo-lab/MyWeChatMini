@@ -1,5 +1,13 @@
 {
   "pages": [
     "pages/login/login"
-  ]
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#579c95",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "Guo Lab",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  }
 }

@@ -1,1 +1,64 @@
 /* pages/login/login.wxss */
+/*
+    容器的样式
+*/
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 30rpx;
+}
+
+/*
+  文本的样式
+*/
+text {
+    font-size: 60rpx;
+    display: flex;
+    justify-content: center;
+
+}
+
+/*
+    输入框
+*/
+input{
+  /*margin: 16rpx 0;*/
+  border: 2rpx solid #336699;
+    height: 90rpx;
+    border-radius: 30rpx;
+    padding-left: 16rpx;
+}
+
+/* 量化以偶数方便渲染 */
+
+.phone_number {
+  margin: 16rpx 0; 
+
+}
+
+.code {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 16rpx;
+  margin-left: 0rpx;
+}
+
+/* Identify input*/
+.code_number {
+  flex: 1;
+}
+
+/*button*/
+.btn_code {
+  background-color: #e0d531;
+  color: rgb(51, 11, 83);
+  font-size: 34rpx ;
+}
+
+/*login*/
+.btn_login {
+  background-color: #09bb07;
+  color: white;
+}

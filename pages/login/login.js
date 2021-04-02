@@ -5,8 +5,30 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+      phone_number: '',
+      code:''
   },
+
+
+
+
+  getPhone : function(e) {
+  console.log(e.detail.value)
+  this.setData({
+    phone_number: e.detail.value
+  })
+  console.log(this.data.phone_number)
+  },
+  getCode : function(e) {
+    console.log(e.detail.value)
+    this.setData({
+      code: e.detail.value
+    })
+    console.log(this.data.code)
+  },
+
+
+
 
   /**
    * 生命周期函数--监听页面加载
