@@ -1,6 +1,11 @@
 {
   "pages": [
-    "pages/login/login"
+    "pages/index/index",
+    "pages/searching/searching",
+    "pages/login/login",
+    "pages/detail/detail",
+    "pages/docu/docu",
+    "pages/classtype/class/type"
   ],
   "window": {
     "navigationBarBackgroundColor": "#579c95",
@@ -9,5 +14,40 @@
     "backgroundColor": "#eeeeee",
     "backgroundTextStyle": "light",
     "enablePullDownRefresh": false
-  }
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "HomePage",
+        "iconPath": "/images/home.png",
+        "selectedIconPath": "/images/home_select.png"
+      },
+      {
+        "pagePath": "pages/classtype/class/type",
+        "text": "Classifying",
+        "iconPath": "/images/home.png",
+        "selectedIconPath": "/images/home.png"
+      },
+      {
+        "pagePath": "pages/searching/searching",
+        "text": "Searching",
+        "iconPath": "/images/e.png",
+        "selectedIconPath": "/images/home_select.png"
+      },
+      {
+        "pagePath": "pages/docu/docu",
+        "text": "Documents",
+        "iconPath": "/images/myLove.png",
+        "selectedIconPath": "/images/myLove.png"
+      },
+      {
+        "pagePath": "pages/login/login",
+        "text": "MyPage",
+        "iconPath": "/images/e.png",
+        "selectedIconPath": "/images/myLove.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
 }

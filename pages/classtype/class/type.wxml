@@ -1,0 +1,18 @@
+<!--pages/classtype/class/type.wxml-->
+<view class="container">
+  <view class="menu">
+     <view class="classtype" bindtap="searchTab">
+       <text>HAHA</text>
+      </view>
+      <view class="classtype" bindtap="searchTab">
+        <text>GREAT</text>
+      </view>
+  </view>
+  <view class="List">
+    <view class="productList"><text>Choice 1</text></view>
+    <view class="productList"><text>Choice 2</text></view>
+    <view class="productList"><text>Choice 3</text></view>
+    <view class="productList"><text>Choice 4</text></view>
+  </view>
+</view>
+
