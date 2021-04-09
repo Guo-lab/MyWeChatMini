@@ -1,5 +1,4 @@
-<!--pages/detail/detail.wxml-->
-<!--<text>pages/detail/detail.wxml</text>-->
+
 <scroll-view scroll-y>
     <text class="title">Detailed Information</text>
     <view>

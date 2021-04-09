@@ -29,7 +29,7 @@
 
 <text class="hot">Amzing</text>
 <view class="wrap">
-<navigator url="/pages/detail/detail" class="product">
+<navigator url="/pages/detai/detai" class="product">
 
     <view class="product">
       <image src="/images/c3.png" mode="widthFix"></image>

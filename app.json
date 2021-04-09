@@ -1,11 +1,13 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/searching/searching",
     "pages/login/login",
-    "pages/detail/detail",
-    "pages/docu/docu",
-    "pages/classtype/class/type"
+    "pages/index/index", 
+    "pages/detai/detai",
+    "pages/docum/docum",
+    "pages/classtype/class/classtype",
+  
+    "pages/searching/searching"
+
   ],
   "window": {
     "navigationBarBackgroundColor": "#579c95",
@@ -24,7 +26,7 @@
         "selectedIconPath": "/images/home_select.png"
       },
       {
-        "pagePath": "pages/classtype/class/type",
+        "pagePath": "pages/classtype/class/classtype",
         "text": "Classifying",
         "iconPath": "/images/home.png",
         "selectedIconPath": "/images/home.png"
@@ -36,7 +38,7 @@
         "selectedIconPath": "/images/home_select.png"
       },
       {
-        "pagePath": "pages/docu/docu",
+        "pagePath": "pages/docum/docum",
         "text": "Documents",
         "iconPath": "/images/myLove.png",
         "selectedIconPath": "/images/myLove.png"
@@ -48,6 +50,6 @@
         "selectedIconPath": "/images/myLove.png"
       }
     ]
-  },
-  "sitemapLocation": "sitemap.json"
+  }
+ 
 }
