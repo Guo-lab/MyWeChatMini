@@ -1,0 +1,60 @@
+<!--pages/docu/docu.wxml-->
+<!--<text>pages/docu/docu.wxml</text>-->
+<scroll-view scroll-y>
+  <view class="product"> 
+    <image src="/images/c1.jpg" mode="widthFix"></image>
+    <view class="info">
+      <text>Shelf</text>
+      <text>300AC</text>
+      <checkbox-group bindchange="change">
+        <checkbox></checkbox> <!--checkbox get ID like value=""-->
+      </checkbox-group>
+    </view>
+  </view>
+  <view class="product"> 
+    <image src="/images/c1.jpg" mode="widthFix"></image>
+    <view class="info">
+      <text>Shelf</text>
+      <text>300AC</text>
+      <checkbox-group>
+        <checkbox></checkbox>
+      </checkbox-group>
+    </view>
+  </view>
+  <view class="product"> 
+    <image src="/images/c1.jpg" mode="widthFix"></image>
+    <view class="info">
+      <text>Shelf</text>
+      <text>300AC</text>
+      <checkbox-group>
+        <checkbox></checkbox>
+      </checkbox-group>
+    </view>
+  </view>
+  <view class="product"> 
+    <image src="/images/c1.jpg" mode="widthFix"></image>
+    <view class="info">
+      <text>Shelf</text>
+      <text>300AC</text>
+      <checkbox-group>
+        <checkbox></checkbox>
+      </checkbox-group>
+    </view>
+  </view>
+  <view class="product"> 
+    <image src="/images/c1.jpg" mode="widthFix"></image>
+    <view class="info">
+      <text>Shelf</text>
+      <text>300AC</text>
+      <checkbox-group>
+        <checkbox></checkbox>
+      </checkbox-group>
+    </view>
+  </view>
+</scroll-view>
+
+<view>
+  <button>
+    How is it ?
+  </button>
+</view>

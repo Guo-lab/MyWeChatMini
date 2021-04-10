@@ -1,0 +1,50 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+
+
+  <!--firstPage autoturn-->
+    <swiper autoplay circular indicator-dots>
+      <swiper-item>
+    <!--<navigator url="/pages/login/login" open-type="swithTab">-->
+      <image src="/images/home.png" mode="widthFix"></image>
+    
+      </swiper-item>
+      <swiper-item>
+      <image src="/images/home.png" mode="widthFix"></image>
+      </swiper-item>
+      <swiper-item>
+      <image src="/images/home.png" mode="widthFix"></image>
+      </swiper-item>
+    </swiper>
+
+    <view class="nav">
+        <view class="menu">
+          <!--<wx:for="{{navList}}" wx:key="index">-->
+          <!--<text>{{item.title}}</text>-->
+        <image src="/images/c2.png"></image>
+        </view>
+    </view>
+
+</view>
+
+<text class="hot">Amzing</text>
+<view class="wrap">
+<navigator url="/pages/detai/detai" class="product">
+
+    <view class="product">
+      <image src="/images/c3.png" mode="widthFix"></image>
+        <view class="info">
+          <text class="name">Cool</text>
+          <text class="year">300BC</text>
+        </view>
+    </view>
+    <view class="product">
+      <image src="/images/c2.png" mode="widthFix"></image>
+        <view class="info">
+          <text class="name">Cool</text>
+          <text class="year">300BC</text>
+        </view>
+    </view>
+
+  </navigator>
+</view>

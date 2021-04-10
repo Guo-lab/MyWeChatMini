@@ -12,20 +12,63 @@ Page({
 
 
 
-  getPhone : function(e) {
+
+
+getPhone : function(e) {
   console.log(e.detail.value)
   this.setData({
     phone_number: e.detail.value
   })
+  if(this.data.phone_number.length!=11){
+    wx.showToast({
+      title: 'Wrong number!',
+    })
+    return;
+  }
   console.log(this.data.phone_number)
-  },
-  getCode : function(e) {
+},
+  
+getCode : function(e) {
     console.log(e.detail.value)
     this.setData({
       code: e.detail.value
     })
     console.log(this.data.code)
-  },
+},
+  
+
+Login : function() {
+    /*wx.request({
+      url: '',
+      data:({
+        phone:this.data.phone_number,
+        code: this.data.code
+      }),
+
+      success(res){
+        if(res.data=="true"){
+          wx.showToast({
+            title: 'Login successfully',
+          });
+          wx.switchTab({
+            url: 'pages/index/index',
+          })
+          console.log(res.data);
+         }
+        }
+      
+    })*/
+    wx.switchTab({
+      url: '/pages/index/index'
+    })
+},
+
+
+
+
+
+
+
 
 
 
